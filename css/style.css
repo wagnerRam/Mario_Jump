@@ -28,21 +28,22 @@
 }
 
 .jump{
-    animation: jump 500ms ease-out;
+    animation: jump 500ms infinite ease-out;
     
 }
+
 @keyframes jump {
     0%{
-        bottom: 0 ;
+        bottom: 0;
     }
     40%{
-        bottom: 180px;
+        bottom: 40%;
     }
     50%{
-        bottom: 180px;
+        bottom: 40%;
     }
     60%{
-        bottom: 180%;
+        bottom: 40%;
     }
     100%{
         bottom: 0;
